@@ -1,0 +1,83 @@
+<div class="row-offcanvas row-offcanvas-left">
+	<%= render 'sidebar_category' %>
+	<div id="main">
+		<div class="col-md-12" >
+			<p class="visible-xs" style="margin-top: 7px;margin-bottom: -7px;">
+	            <img src="/assets/left.png" height="30px" width="30px" data-toggle="offcanvas">
+	        </p>
+			<div class="row">
+				<div class="col-md-6" style="margin-top: 20px;">
+					<div class="input-group">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+							<button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-md-12">
+					<%= render 'caraousel' %>
+				</div>
+			</div>
+			<div class="row top" style="margin-top:20px;">
+				<div class="col-md-12">
+					<span style="margin-bottom: 10px;"><h2>Featured</h2></span>
+					<div class="row">
+						<div class="col-md-2 featured-item">
+							<a href="/products/show">
+								<%= image_tag 'product.jpeg', size: "150x150" %>
+								<span>laptop</span>
+							</a>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row top" style="margin-top:20px;">
+				<div class="col-md-12">
+					<span style="margin-bottom: 10px;"><h2>Best Rated</h2></span>
+					<div class="row">
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+						<div class="col-md-2 featured-item">
+							<%= image_tag 'product.jpeg', size: "150x150" %>
+							<span>laptop</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%= render 'layouts/footer' %>
+	</div>
+
+</div>

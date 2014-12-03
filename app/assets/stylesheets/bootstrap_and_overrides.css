@@ -1,0 +1,158 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+body,html,.row-offcanvas{
+	height: 100%;
+}
+
+
+body { 
+	overflow-x: hidden;
+}
+
+.row-offcanvas{
+	margin-top: 50px;
+}
+
+
+.content{
+	margin-left: 0px;
+	margin-top: 40px;
+}
+
+.fixed{
+	position: fixed;
+}
+
+.footer, .push {
+    height: 100px; 
+}
+
+/*user-------------------------------------*/
+.user-form{
+	width: 250px;
+}
+
+.user-form-name{
+	width: 125px;
+}
+
+.user-form-page{
+	margin-top: 80px;
+	margin-left: 40px;
+}
+
+.user-h{
+	border-bottom: 1px solid #ccc;
+}
+
+.top-border{
+	border-top: 2px solid #ccc;
+}
+/*--------------------------------------*/
+
+
+/*sidenav.---------------------*/
+
+#sidebar{
+	width: inerit;
+	min-width: 220px;
+	min-height: 220px;
+	background-color: #d3d3d3;
+	float: left;
+	height: 150%;
+	position: relative;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+#main{
+	height: auto;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 768px){
+	.row-offcanvas {
+	    position: relative;
+	    -webkit-transition: all 0.25s ease-out;
+	    -moz-transition: all 0.25s ease-out;
+	    transition: all 0.25s ease-out;
+	    width:calc(100% + 220px);
+  	}
+
+  	.row-offcanvas-left{
+  		left: -220px;
+  	}
+
+  	.row-offcanvas-left.active {
+	    left: 0;
+	}
+
+	.sidebar-offcanvas {
+		position: absolute;
+	    top: 0;
+	}
+}
+
+/*---------------------------*/
+
+/*product list-----------------*/
+.product-list{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.product-desc{
+	border-right: 1px solid #ccc;
+	padding-right: 5px;
+	margin-right: 10px;
+}
+
+.product-detail{
+	list-style-type: none;
+	font-size: 17px;
+
+}
+
+.product-detail li{
+	margin-bottom: 5px;
+}
+
+
+
+h4{
+	color: #336699;
+}
+/*---------------------------*/
+
+/*product detail-------------*/
+.cart-btn{
+	background-color: #FFC200;
+	margin-top: 3px;
+}
+/*---------------------------*/
+
+
+/*glyphicon-fixing-------------*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/assets/glyphicons-halflings-regular.eot');
+  src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+/*-----------------------------*/
+
+/*footer-------------*/
+.center {
+	margin-top: 30px;
+    text-align: center;
+ }
+/*---------------------------*/
+
+.featured-item{
+	margin-right: 30px;
+}
